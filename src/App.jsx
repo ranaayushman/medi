@@ -1,4 +1,6 @@
+import Login from "./components/Login";
 import AboutUs from "./sections/AboutUs";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Info from "./sections/Info";
 import LoginOptions from "./sections/LogInOption";
@@ -12,7 +14,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <LoginOptions />
+      <Login />
       <AboutUs />
+      <Footer />
     </div>
   )
 }
